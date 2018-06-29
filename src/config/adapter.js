@@ -37,10 +37,10 @@ exports.model = {
   mysql: {
     handle: mysql,
     database: 'blog',
-    prefix: 'think_',
+    prefix: '',
     encoding: 'utf8',
     host: '127.0.0.1',
-    port: '',
+    port: '3306',
     user: 'shimao',
     password: 'shimao900705',
     dateStrings: true
